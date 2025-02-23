@@ -7,4 +7,70 @@ html{
 
 body{
     font-size: 1.6rem;
+    font-family: "Poppins", serif;
+    /* font-family: "Sen", serif; */
+}
+/* --------------------common-------------- */
+.btn{
+    display: inline-block;
+    padding: 0px 16px ;
+    min-width: 118px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600px;
+    border-radius: 2.45rem;
+    background-color: #171100;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    display: flex;
+    align-items: center;
+    padding: 36px 0px 8px;
+}
+.header.fixed{
+ position: sticky;
+ top: -28px; 
+}
+.header {
+    background-color: #fffcf4;
+}
+.nav ul{
+    display: flex;
+}
+.nav {
+    margin-left: auto;
+}
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.nav a{
+    color: #5f5b53;
+    font-size: 1.6rem;
+    
+    padding: 8px 21px;
+}
+.nav a:hover{
+    color: #171100;
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+}
+.active a::first-letter{
+    text-decoration: underline;
+}
+.nav ul .active a{
+    display:inline-block;
+    padding-top: 0px;
+    
+}
+.main-content .btn-sign-up{
+    min-width: 144px;
+    margin-left: 29px;
 }
